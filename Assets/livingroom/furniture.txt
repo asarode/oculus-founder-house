@@ -1,0 +1,19 @@
+73 detailed prefabs ready to be dropped in to your scene. Meshes unwrapped specially for universal material use: choose a material, adjust color in color picker and texture look.
+More than 40 textures with normal maps, and the demo scenes provided.
+
+
+---
+How to use:
+1. Choose a prefab from "prefabs" folder.
+2. Drop the prefab in to the scene.
+3. Change the material color in the color picker if needed. If you are already using this material, you may want to make a duplicate and rename to avoid changing other objects color.
+4. Adjust the texture tiling: a wall will require more tiling than a chair. 
+5. Lightmap if needed. Prefabs are ready for lightmapping.
+
+---
+Note about lightmaps in demo scenes: the maps had been tweaked in some cases to uncompressed 512x512 pixels texture, please take that in to consideration when overwritting the lightmaps.
+Note about prefabs lights: Lamps have lights, configured only for backed shadows (different to default config). Please make sure the light config fit your needs.
+Note about textures and materials: The materials are just examples from the textures provided, feel free to mix different materials on a sigle object (e.i some sofas can hold up to 4 different materials).
+Note about demo scene "furniture": If you want to rebake the lightmaps, you need to adjust "interior_light" prefabs material main color to white.
+
+
